@@ -18,7 +18,7 @@ function Contact() {
             });
 
             // Show an alert with the message received from the server
-            window.alert(response.data.message);
+            alert(response.data.message);
 
             // Reset the form fields after submission
             setName('');
@@ -27,6 +27,8 @@ function Contact() {
         }
         catch (error) {
             console.error('Error:', error);
+            // Show an alert for any errors
+            alert('An error occurred. Please try again later.');
         }
     };
 
