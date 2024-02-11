@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-lefts,
+.container-middles,
+.container-rights {
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.Image3 {
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
